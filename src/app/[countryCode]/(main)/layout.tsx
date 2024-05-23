@@ -9,6 +9,8 @@ export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
 }
 
+export const dynamic = 'force-dynamic' 
+
 export default async function PageLayout(props: { children: React.ReactNode }) {
   return (
     <>
